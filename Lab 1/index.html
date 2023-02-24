@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Todo List Lab
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>My To Do List!</h1>
+            <form id="taskForm">
+                <input type="text" 
+                    id="newTaskInput"
+                    placeholder="Whats on your schedule?">
+                <input type="submit"
+                    id="newTaskSubmit" 
+                    value="Add Task">
+            </form>
+        </header>
+        <main>
+            <section class="taskList">
+                <h2>My Tasks</h2>
+                <!--Below Div is where task will be added-->
+                <div id="tasks">
+                    <!--Dummy template task-->
+                    <!-- <div class="task">
+                        <div class="content">
+                            <input type="text"
+                            class="text"
+                            value="Dummy Task"
+                            readonly>
+                        </div>
+                        <div class="actions">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                            <button class="check">Check</button>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
